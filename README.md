@@ -1,26 +1,40 @@
-# Lista de Tarefas
+# Lista de Tarefas( Todo-List )
 
 Aplicativo para gerenciar as tarefas do dia-a-dia criado para disciplina de Programação Mobile.
 
-Tutorial de criação deste app: http://bit.ly/2jXXU7Q
-
 <p align="center">
-    <img src="https://miro.medium.com/max/1440/1*oUhhTFGunBMuh4Av-7rR7A.png" width="800"/>
+<img src="https://bit.ly/2NCkm1i" width="210"/>    
+<img src="https://bit.ly/32flH32" width="210"/>
+<img src="https://bit.ly/33fBRuH" width="210"/>
+<img src="https://bit.ly/2PHMpip" width="210"/>
 </p>
 
-## Como clonar e importar
+## O que foi utilizado neste projeto?
 
--   Faça um fork do projeto
--   Abra o terminal do Visual Studio Code
--   Digite (troque kleberandrade pelo nome do seu usuários): git clone https://github.com/kleberandrade/todo-list-aulas-flutter todo_list
+- [x] **Bloc Patter** com  injeção de dependência
+- [x] **Repository e DAO Pattern**
+- [x] **SqlLite** - Banco de dados interno
+- [x] **Bloc** - separação da regra de negocio da view
+- [x] **Path_Provider** é uma extensão que ajuda a facilitar o caminho comum de armazenamento do dispositivo. Neste projeto será usado em conjunto com o Sqflite para armazenar o banco de dados no dispositivo
+- [x] **Slidable** - lista deslizável com ações direcionais de slide
 
 ## Desafios
 
--   Na lista de tarefas, adicionar divisões entre as linhas (use [ListView.separated](https://api.flutter.dev/flutter/widgets/ListView/ListView.separated.html))
--   Adicionar validações no cadastro de uma atividade (lembre-se que é preciso utilizar o widget [TextFormField](https://api.flutter.dev/flutter/material/TextFormField-class.html) para isso)
--   Campo descrição precisar aceitar múltiplas linhas
--   Criar um campo para nível de prioridades que aceita valores entre 1 (baixa prioridade) e 5 (alta prioridade). Representar isso no card da forma como achar mais interessante.
--   Adicionar um [PercentIndicator](https://pub.dev/packages/percent_indicator) circular na barra de navegação para indicar a porcentagem de tarefas concluídas
+-  [x] Na lista de tarefas, adicionar divisões entre as linhas
+-  [x] Adicionar validações no cadastro de uma atividade
+-  [x] Campo descrição precisar aceitar múltiplas linhas
+-  [x] Criar um campo para nível de prioridades que aceita valores entre 1 (baixa prioridade) e 5 (alta prioridade). Representar isso no card da forma como achar mais interessante.
+-  [x] Adicionar um [PercentIndicator] circular na barra de navegação para indicar a porcentagem de tarefas concluídas
+
+
+## Documentação de apoio
+
+ - Documentação oficial Flutter : https://flutter.dev/docs
+ - Bloc pattern e Dependency Injection : https://pub.dev/packages/bloc_pattern
+ - Exemplo de TodoList : https://medium.com/@vaygeth/reactive-flutter-todo-app-using-bloc-design-pattern-b71e2434f692
+ - Percent indicator : https://pub.dev/packages/percent_indicator
+ - Slidable : https://pub.dev/packages/flutter_slidable
+
 
 ## Licença
 
